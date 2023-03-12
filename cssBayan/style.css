@@ -15,6 +15,7 @@ body {
     max-width: 1440px;
     margin: auto;
 }
+
 .logo img {
     width: 80%;
     height: 80%;
@@ -31,11 +32,11 @@ body {
     max-width: 1440px;
 }
 
-
 .accordion-container {
     margin: 100px 0;
     max-width: 1440px;
 }
+
 .accordion-container .acor-body {
     width: calc(100%);
     margin: 0 auto;
@@ -51,12 +52,14 @@ body {
     font-size: 16px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
 }
+
 .accordion-container .acor-body img {
     display: block;
     margin: 0 0 10px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .accordion-container label {
     cursor: grabbing;
     background-color: #111e29;
@@ -71,27 +74,32 @@ body {
     font-size: 18px;
     margin: 0 0 5px;
     transition: color .35s;
-
 }
+
 .accordion-container label:hover {
     color: #26556c;;
 }
+
 .accordion-container input{
     display: none;
 }
+
 .accordion-container label:before {
     content: '\276F';
     float: right;
 }
+
 .accordion-container input:checked + label {
     background-color: #26556c;
     color: #161010;
     box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3);
 }
+
 .accordion-container input:checked + label:before {
     transition: transform .35s;
     transform: rotate(90deg);
 }
+
 .accordion-container input:checked + label + .acor-body {
     height: auto;
     margin-top: -5px;
@@ -103,10 +111,12 @@ body {
     display: inline-block; 
     overflow: hidden;
 }
+
 .acor-body img {
     transition: 1s; 
     display: block; 
 }
+
 .acor-body img:hover {
     transform: scale(1.1); 
 }
@@ -151,7 +161,7 @@ body {
     top: 9px;
     flex-wrap: wrap;
     color: #f1ebeb;
-   }
+}
  
 .date-and-git {
     list-style: none;
